@@ -50,6 +50,15 @@ Bower最大的特点就是**flat dependency tree**，每个包只需要一个版
 
 
 ## [webpack](https://webpack.github.io/ "进入官网查看详细的使用文档")
+这是一个模块打包工具，非常强大，也相对复杂了些，比较一下官方文档就知道了(这个工具的文档是上面那两个工具文档之和)。
+关于这个打包工具的作用，用官方的一幅图来说明最合适不过了：
+![what-is-webpack.png](https://webpack.github.io/assets/what-is-webpack.png)
+
+把模块经过这样的打包处理之后，可以达到下面这些目的：
+- 把依赖树分割成小块，以便能够按需加载
+- 保持初始加载时间仍然很小
+- 每一个静态资源文件都可以成为一个模块
+- 适合于SPA和大项目
 
 
 ## [node](https://nodejs.org/en/ "进入官网查看详细的使用文档")
