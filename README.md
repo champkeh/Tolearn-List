@@ -1,4 +1,4 @@
-# Todo-List
+# Tolearn-List
 
 ## [Babel](https://babeljs.io/ "进入官网")
 这是一款JavaScript的编译器(代码转换器)，主要用于转换JavaScript代码。比如，把ES2015(ES6+)的代码转换为ES5的代码，或者把JSX的代码转换为常规的JavaScript代码(Babel对React的支持非常好)
@@ -17,13 +17,24 @@ $ npm install babel-preset-es2015       # 安装es2015 preset
 $ babel example.es6 --presets es2015 -o example.js       # 代码转换
 ```
 
+> 这个工具的配置文件是`.babelrc`，可以配置插件列表和其他信息。比如
+> 
+    {
+      "plugins": ["transform-react-jsx"],
+      "ignore": [
+        "foo.js",
+        "bar/**/*.js"
+      ]
+    }
+> 
+
 
 ## [Bower](http://bower.io/ "进入官网")
 Bower是一个包管理工具，主要用于web前端。作用和node里面的npm，asp.net里面的NuGet等类似。管理网站中用到的框架，库，资源文件等等
 
 Bower最大的特点就是**flat dependency tree**，每个包只需要一个版本，非常适合于前端。
 
-> 注意：Bower本身是一个命令行工具，这个工具的配置文件是`.babelrc`，这个文件的详细配置请参考[bower/spec](https://github.com/bower/spec/blob/master/config.md)
+> 注意：Bower本身是一个命令行工具，这个工具的配置文件是`.bowerrc`，这个文件的详细配置请参考[bower/spec](https://github.com/bower/spec/blob/master/config.md)
 > 
 > 而使用Bower管理的包也有一个配置文件(或者叫包的**定义文件**)，叫`bower.json`，关于这个文件的配置请参考[bower/spec](https://github.com/bower/spec/blob/master/json.md)
 > 
