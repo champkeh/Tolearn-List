@@ -9,6 +9,14 @@
 
 插件列表：[plugins](http://babeljs.io/docs/plugins/)
 
+#### Example
+1. 命令行下使用babel进行代码转换
+```bash
+$ npm install -g babel-cli              # 安装命令行工具
+$ npm install babel-preset-es2015       # 安装es2015 preset
+$ babel example.es6 --presets es2015 -o example.js       # 代码转换
+```
+
 
 ## [bower](http://bower.io/ "进入官网")
 
