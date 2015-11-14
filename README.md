@@ -17,10 +17,10 @@ $ npm install babel-preset-es2015       # 安装es2015 preset
 $ babel example.es6 --presets es2015 -o example.js       # 代码转换
 ```
 
-> 这个工具的配置文件是`.babelrc`，可以配置插件列表和其他信息。比如
+> 这个工具的配置文件是`.babelrc`，可以配置插件列表和其他信息(可用配置项在[这里](http://babeljs.io/docs/usage/options/))。比如
 > 
     {
-      "plugins": ["transform-react-jsx"],
+      "presets": ["es2015"],
       "ignore": [
         "foo.js",
         "bar/**/*.js"
