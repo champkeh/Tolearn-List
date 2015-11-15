@@ -64,7 +64,7 @@ Bower最大的特点就是**flat dependency tree**，每个包只需要一个版
 ## [node](https://nodejs.org/en/ "进入官网查看详细的使用文档")
 
 
-## [react]()
+## [react](http://facebook.github.io/react/ "官网")
 
 
-## [react-native]()
+## [react-native](https://facebook.github.io/react-native/ "官网")
