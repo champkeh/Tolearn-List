@@ -64,7 +64,11 @@ Bower最大的特点就是**flat dependency tree**，每个包只需要一个版
 ## [node](https://nodejs.org/en/ "进入官网查看详细的使用文档")
 
 
-## [react](http://facebook.github.io/react/ "官网")
+## [react](http://facebook.github.io/react/ "进入官网")
 
 
-## [react-native](https://facebook.github.io/react-native/ "官网")
+## [react-native](https://facebook.github.io/react-native/ "进入官网")
+
+
+## [Redux](http://rackt.org/redux/ "进入官网")
+这是一个为JavaScript App准备的可预测的状态容器，可以和任何一款View Library(包括React)搭配使用。
