@@ -1,5 +1,7 @@
 # Tolearn-List
 
+
+
 ## [Babel](https://babeljs.io/ "进入官网查看详细的使用文档")
 这是一款JavaScript的编译器(代码转换器)，主要用于转换JavaScript代码。比如，把ES2015(ES6+)的代码转换为ES5的代码，或者把JSX的代码转换为常规的JavaScript代码(Babel对React的支持非常好)
 
@@ -27,6 +29,7 @@ $ babel example.es6 --presets es2015 -o example.js       # 代码转换
       ]
     }
 > 
+
 
 
 ## [Bower](http://bower.io/ "进入官网查看详细的使用文档")
@@ -61,14 +64,26 @@ Bower最大的特点就是**flat dependency tree**，每个包只需要一个版
 - 适合于SPA和大项目
 
 
+
 ## [node](https://nodejs.org/en/ "进入官网查看详细的使用文档")
 
 
+
 ## [react](http://facebook.github.io/react/ "进入官网")
-
-
+### 学习资源
+- [谈谈React.js的核心入门知识](http://web.jobbole.com/83414/ "伯乐在线")
+- [源码剖析系列](http://zhuanlan.zhihu.com/purerender "pure render - 知乎专栏")
+- [ReactJS Example](http://react.rocks/) (这个网站有最新的 ReactJS 组件示例，是学习 React 的好东西)
 ## [react-native](https://facebook.github.io/react-native/ "进入官网")
+### 学习资源
+- [深入浅出 React Native: 使用 JavaScript 构建原生应用](http://zhuanlan.zhihu.com/FrontendMagazine/19996445 "知乎专栏")
+- [React Native 通信机制详解](http://blog.cnbang.net/tech/2698/)
+- [React Native 之布局篇](http://segmentfault.com/a/1190000002658374)
+- [React Native 组件库](https://react.parts/native)
+- [11款开源组件](http://www.oschina.net/news/61214/11-react-native-ui-components)
 
+> 最后，附上Github上别人整理的学习资源:
+> [React-Native 学习指南](https://github.com/ele828/react-native-guide)
 
 ## [Redux](http://rackt.org/redux/ "进入官网")
 这是一个为JavaScript App准备的可预测的状态容器，可以和任何一款View Library(包括React)搭配使用。
