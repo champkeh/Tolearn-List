@@ -74,6 +74,9 @@ Bower最大的特点就是**flat dependency tree**，每个包只需要一个版
 - [谈谈React.js的核心入门知识](http://web.jobbole.com/83414/ "伯乐在线")
 - [源码剖析系列](http://zhuanlan.zhihu.com/purerender "pure render - 知乎专栏")
 - [ReactJS Example](http://react.rocks/) (这个网站有最新的 ReactJS 组件示例，是学习 React 的好东西)
+
+
+
 ## [react-native](https://facebook.github.io/react-native/ "进入官网")
 ### 学习资源
 - [深入浅出 React Native: 使用 JavaScript 构建原生应用](http://zhuanlan.zhihu.com/FrontendMagazine/19996445 "知乎专栏")
@@ -84,6 +87,8 @@ Bower最大的特点就是**flat dependency tree**，每个包只需要一个版
 
 > 最后，附上Github上别人整理的学习资源:
 > [React-Native 学习指南](https://github.com/ele828/react-native-guide)
+
+
 
 ## [Redux](http://rackt.org/redux/ "进入官网")
 这是一个为JavaScript App准备的可预测的状态容器，可以和任何一款View Library(包括React)搭配使用。
