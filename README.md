@@ -62,6 +62,8 @@ Bower最大的特点就是**flat dependency tree**，每个包只需要一个版
 - 保持初始加载时间仍然很小
 - 每一个静态资源文件都可以成为一个模块
 - 适合于SPA和大项目
+### 学习资源
+- [SurviveJS - Webpack and React](http://survivejs.com/)一本不错的书
 
 
 
