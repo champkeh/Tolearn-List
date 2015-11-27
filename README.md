@@ -99,5 +99,6 @@ Bower最大的特点就是**flat dependency tree**，每个包只需要一个版
 
 
 > 最后附上一些大牛的博客地址
+> 
 > 1. [http://blog.vjeux.com/](http://blog.vjeux.com/) Facebook 前端团队的软件工程师，负责 React Native 项目
 
